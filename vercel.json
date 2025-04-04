@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!api|\.well-known|_next|\.(?!html$)[^.]+$).*)", "destination": "/index.html" }
+  ]
+}
